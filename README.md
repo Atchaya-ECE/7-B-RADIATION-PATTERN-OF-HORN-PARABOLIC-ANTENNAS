@@ -58,31 +58,101 @@ In our above example suppose operating frequency is 9GHZ λ0=3.33CM.where c is v
 
 <img width="638" height="177" alt="image" src="https://github.com/user-attachments/assets/0e3f554a-c54b-42a4-bc48-1c3b3dd5f5fc" />
 
+## KEY FORMULA:
+### Far-field distance:
+R = (2 × D²) / λ₀
+
+### Gain (for identical antennas):
+Pr = (Pt × λ₀² × G²) / (4 × π × S)²
+G = (4 × π × S / λ₀) × √(Pr / Pt)
+G(dB) = 10 × log₁₀(G)
+
+### 3 dB Beamwidth:
+HPBW = Angle between points at -3 dB from main lobe peak
 **TABULATION:** 
 
 **HORN ANTENNA** 
+| Parameter | Symbol | Measurement | Remarks |
+|------------|---------|--------------|----------|
+| Beam Voltage | \( V_b \) | 8.5 V | From Gunn power supply |
+| Beam Current | \( I_b \) | 320 mA | Measured current |
+| Repeller Voltage | \( V_r \) | –2.8 V | Stable oscillation point |
+| Frequency | \( f \) | 9 GHz | Measured operating frequency |
+| Distance between antennas | \( S \) | 150 cm | Physical spacing |
+| Wavelength | ( λ ) | 3.33 cm | λ = c/f |
+| 3 dB Beamwidth | — | 32° | From radiation plot |
+| Gain | dB | 15 dB | Calculated from gain equation |
 
-Beam voltage	:
+Beam voltage (Vb) : 8.5 V
 
-Beam current	 :
+Beam current (Ib) : 320 mA
+
+Repeller voltage (Vr) : −2.8 V
 
 **PARABOLICANTENNA**
 
-Beam voltage	:
+| Parameter | Symbol | Measurement | Remarks |
+|------------|---------|--------------|----------|
+| Beam Voltage | \( V_b \) | 8.5 V | From Gunn power supply |
+| Beam Current | \( I_b \) | 320 mA | Same as horn setup |
+| Repeller Voltage | \( V_r \) | –2.8 V | Stable oscillation point |
+| Frequency | \( f \) | 9 GHz | Operating frequency |
+| Distance between antennas | \( S \) | 150 cm | Same measurement distance |
+| Wavelength | ( λ ) | 3.33 cm | λ = c/f |
+| 3 dB Beamwidth | — | 12° | From polar plot |
+| Gain | dB | 22 dB | Calculated from gain equation |
+Beam voltage (Vb) : 8.5 V
 
-Beam current	 :
+Beam current (Ib) : 320 mA
 
-Repeller voltage :
+Repeller voltage (Vr) : −2.8 V
 
-	V1 : 
+## 📉 OBSERVATION TABLE 
+#### Radiation Pattern of Horn Antenna
+
+| Angle (°) | VSWR (dB) | Relative Power (dB) |
+|-----------|-----------|---------------------|
+| -50       | 10.5      | -9.0                |
+| -40       | 8.0       | -7.0                |
+| -30       | 5.0       | -5.0                |
+| -20       | 3.0       | -3.0                |
+| -10       | 1.5       | -1.5                |
+|  0        | 0.0       | 0.0                 |
+| +10       | 1.5       | -1.5                |
+| +20       | 3.0       | -3.0                |
+| +30       | 5.0       | -5.0                |
+| +40       | 8.0       | -7.0                |
+| +50       | 10.5      | -9.0                |
+
+→ 3 dB Beamwidth ≈ 32 degree
+
+#### Radiation Pattern of Parabolic Antenna
+
+| Angle (°) | VSWR (dB) | Relative Power (dB) |
+|-----------|-----------|---------------------|
+| -40       | 15.0      | -12.0               |
+| -30       | 10.0      | -9.0                |
+| -20       | 4.0       | -4.0                |
+| -10       | 1.5       | -1.5                |
+| 0         | 0.0       | 0.0                 |
+| +10       | 1.5       | -1.5                |
+| +20       | 4.0       | -4.0                |
+| +30       | 10.0      | -9.0                |
+| +40       | 15.0      | -12.0               |
+
+→ 3 dB Beamwidth ≈ 12 degree
 
 **RESULT:**
 
 Thus the polar pattern and the gain of a waveguide horn antenna and parabolicantenna was measured and plotted.
 
-Beamwidth of horn antenna :
+Beamwidth of horn antenna : 32 degree
 
-Beamwidth of parabolic antenna:		
+Beamwidth of parabolic antenna: 12 degree
+
+Gain (dB) of horn antenna : 15
+
+Gain (dB) of parabolic antenna: 22
 
 
 
