@@ -83,6 +83,7 @@ HPBW = Angle between points at -3 dB from main lobe peak
 | 3 dB Beamwidth | — | 32° | From radiation plot |
 | Gain | dB | 15 dB | Calculated from gain equation |
 
+
 Beam voltage (Vb) : 8.5 V
 
 Beam current (Ib) : 320 mA
@@ -101,6 +102,7 @@ Repeller voltage (Vr) : −2.8 V
 | Wavelength | ( λ ) | 3.33 cm | λ = c/f |
 | 3 dB Beamwidth | — | 12° | From polar plot |
 | Gain | dB | 22 dB | Calculated from gain equation |
+
 Beam voltage (Vb) : 8.5 V
 
 Beam current (Ib) : 320 mA
