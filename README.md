@@ -146,7 +146,9 @@ Repeller voltage (Vr) : −2.8 V
 
 **RESULT:**
 Thus the polar pattern and the gain of a waveguide horn antenna and parabolicantenna was measured and plotted.
+
 Beamwidth of horn antenna : 32 degree
+
 Beamwidth of parabolic antenna: 12 degree
 Gain (dB) of horn antenna : 15
 
